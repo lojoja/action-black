@@ -51,7 +51,6 @@ jobs:
       - name: Run prettier
         uses: lojoja/action-prettier@main
         with:
-          install: "true"
           node_version: ${{ env.NODE_VERSION }}
 
   test-black:
