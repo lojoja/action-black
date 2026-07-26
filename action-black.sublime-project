@@ -8,16 +8,16 @@
   "settings": {
     "LSP": {
       "LSP-pylsp": {
-        "enabled": true,
-        "settings": {
-          "pylsp.plugins.pylint.enabled": false
-        }
+        "enabled": false
       },
       "LSP-pyright": {
         "enabled": false
       },
       "LSP-ruff": {
-        "enabled": false
+        "enabled": true
+      },
+      "LSP-ty": {
+        "enabled": true
       },
       "LSP-yaml": {
         "settings": {

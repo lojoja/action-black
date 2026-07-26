@@ -9,7 +9,7 @@ on:
 env:
   NODE_VERSION: "24"
   PYTHON_PACKAGE_MANAGER: poetry
-  PYTHON_VERSION: "3.13"
+  PYTHON_VERSION: "3.14"
 
 jobs:
   changes:
